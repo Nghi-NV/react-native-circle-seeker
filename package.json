@@ -1,0 +1,18 @@
+{
+  "name": "react-native-circle-seeker",
+  "version": "1.0.0",
+  "description": "A circle picker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": "nghinv@luci.vn",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Nghi-NV/react-native-circle-seeker.git"
+  },
+  "license": "MIT"
+}

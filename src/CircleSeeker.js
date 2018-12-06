@@ -29,10 +29,19 @@ class CircleSeeker extends Component {
         DeviceEventEmitter.removeAllListeners('onDownCircleSeeker');
     }
 
+    setNativeProps = (nativeProps) => {
+        this._root.setNativeProps(nativeProps);
+    }
+
+    setValue = (value) => {
+        this.setNativeProps({ value: value })
+    }
+
     render() {
 
         return (
             <CircleSeekerView
+                ref={ref => this._root = ref}
                 {...this.props}
             />
         );
